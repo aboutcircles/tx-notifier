@@ -1,0 +1,17 @@
+{
+  "name": "tx-notifier",
+  "version": "1.0.0",
+  "description": "Monitors transactions to a specific address and invokes a webhook if something arrives.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "run": "node src/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2",
+    "ethers": "^6.12.0",
+    "@circles/timecircles": "^1.0.6"
+  },
+  "author": "",
+  "license": "ISC"
+}
